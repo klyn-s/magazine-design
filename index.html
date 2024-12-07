@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8">
+    <title>Magazine Layout</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Cormorant Infant', serif;
+        color: #FFFFFE;
+        background-color: #fefefe;
+      }
+
+      .container {
+        width: 1200px;
+        margin: 0 auto;
+      }
+
+      /* Text Style */
+      h1 {
+        font-size: 128px;
+        font-weight: 200;
+        
+      }
+
+      h2 {
+        font-size: 96px;
+        font-weight: 200;
+        
+      }
+
+      h3 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 64px;
+        font-weight: 200;
+        margin: -10px 0;
+      }
+
+      h4 {
+        font-family: "Open Sans", sans-serif;
+        color: #FFFFFE;
+        font-size: 20px;
+        font-weight: 300;
+      }
+
+      p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 200;
+      }
+
+      /* Navigation */
+      .nav {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #fefefe;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+      }
+
+      .nav ul {
+        list-style: none;
+        margin: 0;
+
+      }
+
+      .nav .logo {
+        left: -40%;
+        width: 200;
+        font-family: 'Cormorant Infant', serif;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 500;
+      }
+
+      .nav li {
+        display: inline-block;
+
+      }
+
+      .nav a {
+        color: #282828;
+        margin: 10px;
+        text-decoration: none;
+      }
+
+      .nav a:hover {
+        text-decoration: underline;
+      }
+
+      /* Section 0 */
+
+      #section0 {
+        height: 700px;
+        background-color: #000008;
+      }
+      
+      #section0 h1 {
+        position: absolute;
+        left: 135px;
+        top: 86px;
+        text-transform: uppercase;
+      }
+      
+      #section0 h2 {
+        position: absolute;
+        left: 142px;
+        top: 204px;
+      }
+      
+      #section0 h4 {
+        position: absolute;
+        left: 1055px;
+        top: 413px;
+        text-align: right;
+      }
+
+      #section0 p {
+        width: 432px;
+        position: absolute;
+        left: 243px;
+        top: 72%;
+      }
+
+      #section0 img {
+        width: 362px;
+        position: absolute;
+        left: 427px;
+        top: 241px;
+      }
+
+      #section1 {
+        background-color: #423711;
+        height: 832px;
+      }
+
+      #section2 {
+        background-color: #bbb5a7;
+        height: 832px;
+      }
+
+      #section3 {
+        background-color: #8b2e25;
+        height: 832px;
+      }
+
+      #jumplink {
+        position: absolute;
+        width: 100%;
+        left: 52%;
+        text-align: right;
+        top: 500px;
+      }
+      
+      #jumplink a {
+        color: #FFFFFE;
+        text-decoration: none;
+      }
+
+
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="#section0">0</a>
+      <div class="nav">
+        <ul>
+          <li><a href="https://klyn-s.github.io/about-me/">about me</a></li>
+          <li><a href="https://klyn-s.github.io/project-page/">project</a></li>
+        </ul>
+        <div class="logo">
+          <ul>
+            <li><a href="https://klyn-s.github.io/home-page/">kaitlyn's</a></li>
+          </ul>
+        </div>
+        <ul>
+          <li><a href="">contact me</a></li>
+        </ul>
+      </div>
+
+
+      <div id="section0">
+        <h1>Magazine</h1>
+        <h2>design</h2>
+        <h4>feature<br>designs</h4> 
+        <div id="jumplink">
+          <h3><a href="#section1">→ logo</a></h3>
+          <h3><a href="#section2">→ poster</a></h3>
+          <h3><a href="#section3">→ product</a></h3>
+        </div>
+        <p>a magazine layout design<br>
+          each page unfolding a distinct concept inspired by the essence of each design project</p>
+        <img class="image" src="sodoi.png" alt="sodoi magaine cover">
+        
+  
+
+      </div>
+      <div id="section1">
+        Your amazing content goes here!
+      </div>
+      <div id="section2">
+        Your amazing content goes here!
+      </div>
+      <div id="section3">
+        Your amazing content goes here!
+      </div>
+      <div id="section4">
+        Your amazing content goes here!
+
+
+        
+       
+       
+        
+      </div>
+      </div>
+  </body>
+</html>
