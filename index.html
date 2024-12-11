@@ -68,10 +68,13 @@
       }
 
       .nav .logo a {
-        color: #fefefe;
+        color: #f9fcf8;
         text-decoration: none;
       }
 
+      .nav .logo a:hover {
+        color: #d8bfd8;
+      }
 
       .nav ul {
         display: flex;
@@ -184,7 +187,7 @@
         top: 17%;
         line-height: 2px;
       }
-      
+
       #section1 .header h2 {
         text-align: right;
       }
@@ -219,11 +222,11 @@
         color: #282828;
       }
 
-      .jump-to-next-page a:hover{
+      .jump-to-next-page a:hover {
         text-decoration: none;
         color: tomato;
       }
-      
+
       /* Section 2: Poster Design */
       #section2 {
         background-color: #000008;
@@ -257,14 +260,12 @@
       }
 
       #section2 .jump-to-next-page a {
-        color: #fefefe;
+        color: #f9fcf8;
       }
-      
+
       #section2 .jump-to-next-page a:hover {
         color: tomato;
       }
-
-
 
       /* Section 3: Product Design */
       #section3 {
@@ -273,34 +274,50 @@
         color: #282828;
       }
 
+      
+      #section3 h1 {
+        font-style: italic;
+        padding: 160px 0 0 0;
+        text-align: right;
+        margin-right: 80px;
+        text-transform: lowercase;
+        line-height: 1px;
+      }
+      
       #section3 h2 {
         position: relative;
-        font-style: italic;
-        padding: 80px 0 10px 0;
+        left: 73%;
+        padding: 0px;
+        width: 10%;
+        height: 1px;
+        text-align: right;
         line-height: 1px;
-        text-align: center;
       }
-
-
+      
       #section3 .details {
         position: relative;
-        left: 300px;
-        width: 45%;
-        line-height: 1.5;
+        float: right;
+        top: 110px;
+        width: 25%;
+        margin-right: 80px;
       }
-
+      
+      
       #section3 img {
         position: relative;
-        margin-left: 110px;
+        float: left;
+        top: -80px;
+        margin-left: 50px;
       }
 
       #section3 .jump-to-next-page {
-        margin: 550px 110px 0 0;
+        margin: 100px 90px 0 0;
       }
-      
+
       #section3 .jump-to-next-page a:hover {
         color: #6BA9EF;
       }
+
       /* Footer */
       .footer {
         text-align: center;
@@ -308,8 +325,8 @@
         font-size: 14px;
         color: #aaa;
       }
-      
-    /*
+
+      /*
 Code copied from: https://www.w3schools.com/cssref/pr_scroll-behavior.php
 Author: w3schools
 Name: CSS scroll-behavior Property
@@ -319,7 +336,6 @@ Date retrieved: Dec 10, 2024
       html {
         scroll-behavior: smooth;
       }
-      
     </style>
   </head>
   <body>
@@ -401,21 +417,23 @@ Date retrieved: Dec 10, 2024
 
       <!-- Section 3: Emotional Product Design -->
       <div id="section3">
-        <h2>emotional product design</h2>
-        <p> <strong> Inspired by the calming resonance of conch shells, this headphone design integrates real shells to evoke tranquility.</strong>
-        </p>
-        <img src="pg3.png" alt="magazine spread5-6: Emotional Object Design" style="width: 720px">
-        <div class="jump-to-next-page">
-          <h4><a href="#section0">→ back</a></h4>
-        </div>
+        <h1>emotional product</h1>
+        <h2>design</h2>
+        <img src="pg3.png" alt="magazine spread5-6: Emotional Object Design" style="height: 450px">
         <div class="details">
+          <p><strong>
+            Inspired by the calming resonance of conch shells, this headphone design integrates real shells to evoke tranquility.</strong></p>
           <p>
             By applying principles of visual design and user interaction, I crafted a product that is both functional and emotionally resonant.</p>
           <p>This project taught me the importance of balancing form and function while staying focused on creating a product that truly connects with its user.
           </p>
         </div>
+        <div class="jump-to-next-page">
+          <h4><a href="#section0">→ back to top</a></h4>
+        </div>
       </div>
-<div class="footer">
+      
+      <div class="footer">
         <p>@kaitlyn’s portfolio</p>
       </div>
     </div>
